@@ -13,26 +13,6 @@ namespace CModEntrypoint_JohnCosmoteer_ExampleCMod {
         public static Harmony? harmony;
 
         /// <summary>
-        /// Use this method to apply patches BEFORE the game is fully loaded 
-        /// and BEFORE modifications to rules fules (actions, strings) are applied.
-        /// 
-        /// Source code reference: Cosmoteer.Mods.ModInfo.ApplyPreLoadMods()
-        /// </summary>
-        public static void Pre_ApplyPreLoadMods() {
-            FileLogger.LogInfo("Pre_ApplyPreLoadMods() called");
-        }
-
-        /// <summary>
-        /// Use this method to apply patches BEFORE the game is fully loaded 
-        /// and AFTER modifications to rules fules (actions, strings) are applied.
-        /// 
-        /// Source code reference: Cosmoteer.Mods.ModInfo.ApplyPreLoadMods()
-        /// </summary>
-        public static void Post_ApplyPreLoadMods() {
-            FileLogger.LogInfo("Post_ApplyPreLoadMods() called");
-        }
-
-        /// <summary>
         /// Use this method to apply patches AFTER the game is fully loaded 
         /// and BEFORE modifications are done to the loaded game data (ship libraries being added).
         /// 

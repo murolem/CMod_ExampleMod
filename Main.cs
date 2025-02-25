@@ -14,7 +14,7 @@ namespace CModEntrypoint_JohnCosmoteer_ExampleCMod {
 
         /// <summary>
         /// Use this method to apply patches AFTER the game is fully loaded 
-        /// and BEFORE modifications are done to the loaded game data (ship libraries being added).
+        /// and BEFORE modifications are done to the loaded game data (such as MODDED ship libraries being added).
         /// 
         /// Source code reference: Cosmoteer.Mods.ModInfo.ApplyPostLoadMods()
         /// </summary>
@@ -24,7 +24,7 @@ namespace CModEntrypoint_JohnCosmoteer_ExampleCMod {
 
         /// <summary>
         /// Use this method to apply patches AFTER the game is fully loaded 
-        /// and AFTER modifications are done to the loaded game data (ship libraries being added).
+        /// and AFTER modifications are done to the loaded game data (such as MODDED ship libraries being added).
         /// 
         /// Source code reference: Cosmoteer.Mods.ModInfo.ApplyPostLoadMods()
         /// </summary>

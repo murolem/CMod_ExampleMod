@@ -37,4 +37,4 @@ Description = "[Requires CMod Loader] \nThis is a mod that demonstrates how to c
 // and override any values in the base string file (such as Data\strings\en.rules).
 // Each language supported should have its own string file named
 // after the two-letter 639-1 language code for that language.
-StringsFolder = "strings"
+// StringsFolder = "strings"
